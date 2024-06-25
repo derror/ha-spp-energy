@@ -1,0 +1,376 @@
+{
+  "result": {
+    "id": 40,
+    "title": "Elektrina virtu\u00e1lna bat\u00e9ria",
+    "type": {
+      "id": 2,
+      "title": "Elektrina celkov\u00e1 cena",
+      "attributes": {
+        "uzemie": {
+          "name": "\u00dazemie (ZSD/SSD/VSD)",
+          "type": "text"
+        },
+        "sadzba": {
+          "name": "Sadzba (DD1 - DD8)",
+          "type": "text"
+        },
+        "vt": {
+          "name": "Cenn\u00edk SPP VT",
+          "type": "number"
+        },
+        "nt": {
+          "name": "Cenn\u00edk SPP NT",
+          "type": "number"
+        },
+        "mesacna_odberne_miesto": {
+          "name": "Mesa\u010dn\u00e1 platba za odbern\u00e9 miesto",
+          "type": "number"
+        },
+        "distribucia_vt": {
+          "name": "Variabiln\u00e1 zlo\u017eka za distrib\u00faciu VT",
+          "type": "number"
+        },
+        "distribucia_nt": {
+          "name": "variabiln\u00e1 zlo\u017eka za distrib\u00faciu NT",
+          "type": "number"
+        },
+        "pevna_mesacna_odberne_miesto": {
+          "name": "Pevn\u00e1 mesa\u010dn\u00e1 zlo\u017eka za 1 odbern\u00e9 miesto",
+          "type": "number"
+        },
+        "mesacna_amper": {
+          "name": "Pevn\u00e1 mesa\u010dn\u00e1 zlo\u017eka tarify za 1A amp\u00e9rickej hodnoty 1-f\u00e1zov\u00e9ho isti\u010da (pred elektromerom)",
+          "type": "number"
+        },
+        "straty": {
+          "name": "straty pri distrib\u00facii",
+          "type": "number"
+        },
+        "prevadzkovanie": {
+          "name": "Prev\u00e1dzkovanie syst\u00e9mu",
+          "type": "number"
+        },
+        "systemove_sluzby": {
+          "name": "Syst\u00e9mov\u00e9 slu\u017eby",
+          "type": "number"
+        },
+        "jadrovy_fond": {
+          "name": "Jadrov\u00fd fond",
+          "type": "number"
+        },
+        "virtualna_bateria": {
+          "name": "Virtualna bateria",
+          "type": "number"
+        }
+      }
+    },
+    "active_from": "2024-04-30 12:00:00",
+    "active_to": "2026-04-23 12:00:00",
+    "rates": [
+      {
+        "uzemie": "ZSD",
+        "sadzba": "DD1",
+        "vt": "73.3005",
+        "nt": "0",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "38.9040",
+        "distribucia_nt": "",
+        "pevna_mesacna_odberne_miesto": "1.3206",
+        "mesacna_amper": "",
+        "straty": "11.4660",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "ZSD",
+        "sadzba": "DD2",
+        "vt": "82.3005",
+        "nt": "0",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "13.0050",
+        "distribucia_nt": "",
+        "pevna_mesacna_odberne_miesto": "4.5807",
+        "mesacna_amper": "",
+        "straty": "11.4660",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "ZSD",
+        "sadzba": "DD3",
+        "vt": "81.6005",
+        "nt": "61.7304",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "13.0050",
+        "distribucia_nt": "13.0050",
+        "pevna_mesacna_odberne_miesto": "7.2595",
+        "mesacna_amper": "",
+        "straty": "11.4660",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "ZSD",
+        "sadzba": "DD4",
+        "vt": "81.2005",
+        "nt": "61.7304",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "3.9840",
+        "distribucia_nt": "3.9840",
+        "pevna_mesacna_odberne_miesto": "",
+        "mesacna_amper": "0.1508",
+        "straty": "11.4660",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "ZSD",
+        "sadzba": "DD5",
+        "vt": "84.9005",
+        "nt": "69.8204",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "3.9840",
+        "distribucia_nt": "3.9840",
+        "pevna_mesacna_odberne_miesto": "",
+        "mesacna_amper": "0.1508",
+        "straty": "11.4660",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "SSD",
+        "sadzba": "DD1",
+        "vt": "73.3005",
+        "nt": "0",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "51.05",
+        "distribucia_nt": "",
+        "pevna_mesacna_odberne_miesto": "1.120",
+        "mesacna_amper": "",
+        "straty": "10.915",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "SSD",
+        "sadzba": "DD2",
+        "vt": "82.3005",
+        "nt": "0",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "13.24",
+        "distribucia_nt": "",
+        "pevna_mesacna_odberne_miesto": "6.310",
+        "mesacna_amper": "",
+        "straty": "10.915",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "SSD",
+        "sadzba": "DD3",
+        "vt": "81.6005",
+        "nt": "61.7304",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "4.32",
+        "distribucia_nt": "0.650",
+        "pevna_mesacna_odberne_miesto": "10.870",
+        "mesacna_amper": "",
+        "straty": "10.915",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "SSD",
+        "sadzba": "DD4",
+        "vt": "81.2005",
+        "nt": "61.7304",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "24.78",
+        "distribucia_nt": "6.03",
+        "pevna_mesacna_odberne_miesto": "6.650",
+        "mesacna_amper": "",
+        "straty": "10.915",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "SSD",
+        "sadzba": "DD5",
+        "vt": "84.9005",
+        "nt": "69.8204",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "0.650",
+        "distribucia_nt": "0.650",
+        "pevna_mesacna_odberne_miesto": "10.300",
+        "mesacna_amper": "",
+        "straty": "10.915",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "SSD",
+        "sadzba": "DD6",
+        "vt": "94.9006",
+        "nt": "77.2605",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "0.650",
+        "distribucia_nt": "0.650",
+        "pevna_mesacna_odberne_miesto": "10.300",
+        "mesacna_amper": "",
+        "straty": "10.915",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "SSD",
+        "sadzba": "DD7",
+        "vt": "75.8705",
+        "nt": "61.2804",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "51.05",
+        "distribucia_nt": "51.05",
+        "pevna_mesacna_odberne_miesto": "1.120",
+        "mesacna_amper": "",
+        "straty": "10.915",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "SSD",
+        "sadzba": "DD8",
+        "vt": "85.4205",
+        "nt": "50.5203",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "0.650",
+        "distribucia_nt": "0.650",
+        "pevna_mesacna_odberne_miesto": "6.650",
+        "mesacna_amper": "",
+        "straty": "10.915",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "VSD",
+        "sadzba": "DD1",
+        "vt": "73.3005",
+        "nt": "0",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "47.000",
+        "distribucia_nt": "",
+        "pevna_mesacna_odberne_miesto": "1.3000",
+        "mesacna_amper": "",
+        "straty": "12.413",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "VSD",
+        "sadzba": "DD2",
+        "vt": "82.3005",
+        "nt": "0",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "19.700",
+        "distribucia_nt": "",
+        "pevna_mesacna_odberne_miesto": "4.8211",
+        "mesacna_amper": "",
+        "straty": "12.413",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "VSD",
+        "sadzba": "DD3",
+        "vt": "81.6005",
+        "nt": "61.7304",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "5.200",
+        "distribucia_nt": "5.200",
+        "pevna_mesacna_odberne_miesto": "",
+        "mesacna_amper": "0.2954",
+        "straty": "12.413",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "VSD",
+        "sadzba": "DD4",
+        "vt": "81.2005",
+        "nt": "61.7304",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "5.200",
+        "distribucia_nt": "5.200",
+        "pevna_mesacna_odberne_miesto": "",
+        "mesacna_amper": "0.2954",
+        "straty": "12.413",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "VSD",
+        "sadzba": "DD5",
+        "vt": "84.9005",
+        "nt": "69.8204",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "5.200",
+        "distribucia_nt": "5.200",
+        "pevna_mesacna_odberne_miesto": "",
+        "mesacna_amper": "0.2954",
+        "straty": "12.413",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      },
+      {
+        "uzemie": "VSD",
+        "sadzba": "DD6",
+        "vt": "94.9006",
+        "nt": "77.2605",
+        "mesacna_odberne_miesto": "1.50",
+        "distribucia_vt": "5.200",
+        "distribucia_nt": "5.200",
+        "pevna_mesacna_odberne_miesto": "",
+        "mesacna_amper": "0.2954",
+        "straty": "12.413",
+        "prevadzkovanie": "15.9000",
+        "systemove_sluzby": "6.2976",
+        "jadrovy_fond": "3.270",
+        "virtualna_bateria": "2.50"
+      }
+    ]
+  }
+}
